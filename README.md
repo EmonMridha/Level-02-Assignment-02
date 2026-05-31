@@ -4,11 +4,11 @@ A collaborative backend platform for software teams to report bugs, request feat
 
 ## Live URL
 
-https://your-live-link.com
+https://assignment-02-swart.vercel.app/
 
 ## GitHub Repository
 
-https://github.com/yourusername/devpulse
+https://github.com/EmonMridha/Level-02-Assignment-02
 
 ---
 
@@ -36,50 +36,13 @@ https://github.com/yourusername/devpulse
 
 ---
 
-## Project Setup
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/yourusername/devpulse.git
-cd devpulse
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure Environment Variables
-
-Create a `.env` file:
-
-```env
-PORT=5000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_secret_key
-CLIENT_URL=http://localhost:5173
-```
-
-### 4. Run Project
-
-Development mode:
-
-```bash
-npm run dev
-```
-
-Production mode:
-
-```bash
-npm run build
-npm start
-```
-
----
 
 ## API Endpoints
+/api/auth/signup
+/api/auth/login
+/api/issues
+/api/issues?sort=newest
+/api/issues/:id
 
 ### Authentication
 
@@ -119,8 +82,4 @@ npm start
 * created_at
 * updated_at
 
----
 
-## Author
-
-Developed as part of the DevPulse Backend Assignment.
